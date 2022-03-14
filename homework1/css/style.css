@@ -1,0 +1,214 @@
+body{
+padding: 0px;
+margin: 0px;
+color: black;
+font-family: arial;
+
+
+
+}
+#first {
+	height: 800px;
+	background: url(../img/first.jpg) no-repeat center top / cover;
+	color: #fff
+
+}
+
+.container {
+	width: 1170px;
+	margin: 0px auto;}
+header {	
+	padding-top: 50px;
+}
+ 
+.mail{
+	float: left;
+	font-size: 14px;
+	background: url(../img/mail.png) no-repeat
+	left center;
+	padding-left: 20px;
+
+} 
+.logo{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 320px;
+
+}
+.logo span {
+	color: #ffd400;
+}
+.phone{
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	background: url(../img/phone.png) no-repeat
+	left center;
+	padding-left: 20px;
+}
+h1{
+	font-size: 41px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 260px;
+	font-weight: bold;
+	display: block;
+}
+h1 span{
+	font-size: 31px;
+	font-weight: normal;
+	
+}
+.button{
+	background: #ffd400;
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align:center;
+	border-radius: 5px;
+	padding: 30px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	margin: 0px auto;
+	width: 220px;
+	
+}
+h2 {
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 100px;
+
+}
+
+.photo {
+	display: block;
+	margin: 50px auto;
+	width: 150px;
+	border-radius: 50px;
+	
+}
+
+h3{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-text{
+	
+	display: block;
+	width: 400px;
+	margin: 50px auto;
+	font-size: 17px;
+	text-align: center;
+
+
+}
+.social_block{
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+
+
+}
+.social-vk{
+	background: #ffd400;
+	padding: 10px;
+	border-radius: 50px;
+	margin-right: 10px;
+	
+}
+.social-fd{
+	background: black;
+	padding: 10px;
+	border-radius: 50px;
+	margin-right: 10px;
+}	
+.social-yt{
+	background: #ffd400;
+	padding: 10px;
+	border-radius: 50px;
+	
+}
+.social-vk:hover{
+background: black;
+box-shadow: 0px 0px 11px 5px blue;	
+}
+.social-fd:hover{
+	background: #ffd400;
+	box-shadow: 0px 0px 11px 5px #ffd600;
+}
+.social-yt:hover{
+background: black;
+box-shadow: 0px 0px 11px 5px red;
+}
+
+.forma{
+	display: block;
+	margin: 50px auto;
+	text-align:center;
+	width: 240px;
+	
+
+
+
+}
+.cell{
+	padding: 15px 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 3px 5px 5px rgba(1,1,0,10);
+}
+.cell2{
+	padding: 15px 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 3px 5px 5px rgba(1,1,0,10);
+}
+.cell3{
+	padding: 15px 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 3px 5px 5px rgba(1,1,0,10);
+}
+
+.container2{
+	width: 1170px;
+	margin: 0px auto;
+	
+
+}
+
+.act{
+	cursor: pointer;
+	margin-top:20px;
+	height: 15px;
+	font-size: 15px;
+}
+.act:hover{
+	box-shadow: 0px 0px 11px 5px #ffd600;
+}
+
+
+footer {
+	background:black;
+	padding: 30px;
+	color: grey;
+	margin-top: 100px;
+
+}
+.mail2{
+	background: black;
+}
+.phone2{
+	background: black;
+}
+
+
