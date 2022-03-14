@@ -1,0 +1,129 @@
+body{
+	
+background: -moz-linear-gradient(332deg, #481B5C 0%, #481B5C 1%, #3E28A1 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #481B5C), color-stop(1%, #481B5C), color-stop(100%, #3E28A1)); /* safari4+,chrome */
+background: -webkit-linear-gradient(332deg, #481B5C 0%, #481B5C 1%, #3E28A1 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(332deg, #481B5C 0%, #481B5C 1%, #3E28A1 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(332deg, #481B5C 0%, #481B5C 1%, #3E28A1 100%); /* ie10+ */
+background: linear-gradient(118deg, #481B5C 0%, #481B5C 1%, #3E28A1 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#481B5C', endColorstr='#3E28A1',GradientType=1 ); /* ie6-9 */
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+	font-size: 18px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	color: white;
+}
+
+.intro{
+	margin-top: 100px;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+
+.kalk {
+	display: flex;
+	margin-bottom: 50px;
+	align-items: flex-end;
+
+
+}
+
+.month{
+	float: left;
+	height: auto;
+	width: 200px;
+	
+
+
+}
+
+.month input{
+	margin-bottom: 22.5px;
+	width: 250px ;
+	height: 40px;
+	padding-left: 10px;
+	background-color: #14EAB8;
+
+	
+}
+
+
+.costs {
+	display: block;
+	height: auto;
+	width: 200px;
+	margin-left: 140px;
+}
+
+.costs input {
+	margin-bottom: 22.5px;
+	width: 250px ;
+	height: 40px;
+	padding-left: 10px;
+	background-color: #14EAB8;
+}
+
+.costs p{
+	display: line;
+}
+
+.itog {
+	display: block;
+	height: auto;
+	width: 250px;
+	margin-left: 140px;
+	margin-bottom: 23px;
+
+}
+
+.itog input{
+
+	width:300px;
+	height: 40px;
+	background-color: transparent;
+	color: black;
+	border: none;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+.total{
+	margin-top: 50px;
+	margin-bottom: 93px;
+	 display: flex;
+    align-items: baseline;
+
+	
+}
+
+.total input{
+	height: 20px;
+	width: 100px;
+	display: inline-flex;
+	background-color: transparent;
+	color: black;
+	border: none;
+	padding-left: 10px;
+	font-size: 20px;
+	
+}
+
+
+.kopilka {
+
+    width: 389px;
+    justify-content: space-between;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Калькулятор</title>
+</head>
+<body>
+	<div class="container">
+		<div class="intro">
+			<h1> Мой первый калькулятор</h1>
+		</div>
+		<div class="kalk">
+			<div class="month">
+				<p> Доход в месяц </p>
+
+				<input type="number" name="input" placeholder="Зарплата" id="zarplata" class="input1">
+
+				<input type="number" name="input" placeholder="Фриланс" id="freelance" class="input1">
+
+				<input type="number" name="input" placeholder="Доп.доход" id="dop1" class="input1">
+
+				<input type="number" name="input" placeholder="Доп.доход" id="dop2" class="input1">
+			</div>
+
+			<div class="costs">
+				<p> Обязательные рассходы </p>
+
+				<input type="number" name="input" placeholder="Аренда квартиры" id="arenda" class="input1">
+
+				<input type="number" name="input" placeholder="ЖКХ" id="komynal" class="input1">
+
+				<input type="number" name="input" placeholder="Транспорт" id="car" class="input1">
+
+				<input type="number" name="input" placeholder="Кредиты" id="kredits" class="input1">
+			</div>
+			<div class="itog">
+
+				<p>Доступно в месяц (без копилки)</p>
+				<input type="number" name="input" value="0" id="month" class="">
+
+				<p>Доступно в день</p>
+				<input type="number" name="input" value="0" id="day" class="">
+
+				<p> Накопим за год</p>
+				<input type="number" name="input" value="0" id="year" class="">
+			</div>
+		</div>
+
+			<div class="kopilka">
+
+				<h6>Копилка (Сколько откладываем?)</h6>
+            <div class="range-wrapper">
+                <input type="range" min="0" max="100%" value="0" id="kopil">
+            </div>
+            <div><span id="total-precents">0</span>%</div>
+		
+			</div>
+
+			<div class="total">
+				<p>Копим</p>
+
+				<input type="number" name="" value="0" id="kopim" class="">
+
+
+				<p>Тратим</p>
+
+				<input type="number" name="" value="0" id="tratim"
+				class="">
+			</div>
+			
+	</div>
+		
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
